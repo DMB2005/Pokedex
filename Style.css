@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    gap: 20px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/364/585/desktop-wallpaper-original-pokedex-iphone-12-pokedex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#input_pkm {
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    outline: none;
+    border: 2px solid #555;
+}
+
+#search-button {
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 60px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #ffcb05;
+    border: 2px solid #3b4cca;
+    color: #3b4cca;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#search-button:hover {
+    background: #3b4cca;
+    color: #fff;
+}
+
+#pokemon-info {
+    width: 70%;
+    min-height: 50%;
+    background-color: #dc0a2d;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    padding: 20px;
+}
+
